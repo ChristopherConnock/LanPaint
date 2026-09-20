@@ -13,7 +13,7 @@ jobs:
       PYTHONIOENCODING: "utf8"
     strategy:
       matrix:
-        os: [ubuntu-latest]
+        os: [ubuntu-latest, windows-latest]
         python-version: ["3.12"]
 
     steps:

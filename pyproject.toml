@@ -18,6 +18,10 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = [
+    "aiohttp",  # HTTP route regression tests (also provided by ComfyUI)
+    "av",  # video metadata round-trip tests
+    "numpy",  # image/video test fixtures
+    "pillow",  # mask test fixtures
     "bump-my-version",
     "coverage",  # testing
     "mypy",  # linting
